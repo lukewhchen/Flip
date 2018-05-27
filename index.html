@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Flip Puzzle Game</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/game.js"></script>
+	</head>
+	<body>
+		<audio src="./assets/peppa.m4a" controls autoplay loop ></audio>
+
+		<div class="container">
+			<h1>Flip Puzzle Game</h1>
+			<div class="board"></div>
+			<nav>
+				<input type="button" class="retry" value="Try Again">
+				<input type="button" class="restart" value="New Game">
+				<input type="button" class="instructions" value="How to Play">
+			</nav>
+			<div class="author">
+				<a href="https://lukewhchen.github.io/">Make by Luke Chen</a>
+			</div>
+
+			<div id="rule-modal" class="modal">
+				<div class="content">
+					<h2>How to Play</h2>
+					<div class="rule">
+						<li>Click square to flip its color.</li>
+						<li>All adjacent squares will flip on the same time.</li>
+						<li>Make all squares trun pink.</li>
+					</div>
+					<footer>
+						<input type="button" class="play-button" value="Play">
+					</footer>
+				</div>
+			</div>
+
+			<div id="level-modal" class="modal">
+				<div class="content">
+					<h2>CONGRATULATION !</h2>
+					<div class="rule">
+						<li>Wonderful! You nailed it.</li>
+						<li>Let's move on next level.</li>
+					</div>
+					<footer>
+						<input type="button" class="play-button" value="Next Level">
+					</footer>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>
