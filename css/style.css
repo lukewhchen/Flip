@@ -25,6 +25,7 @@ body {
 
 audio {
   width: 200px;
+  cursor: pointer;
 }
 
 a {
@@ -146,7 +147,7 @@ nav {
   margin-right: -5px;
   margin-bottom: -5px;
   background-color: #d671a9;
-  /* background-color: transparent; */
+  cursor: pointer;
 }
 
 .unselected {
