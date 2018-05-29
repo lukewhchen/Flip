@@ -59,7 +59,7 @@ nav {
   text-align:center;
 }
 
-.modal{
+.modal {
   display: none;
   position: fixed;
   top:0;
@@ -87,7 +87,7 @@ nav {
   border-bottom: 1px solid #E0DEDB;
 }
 
-#level-modal .content{
+#level-modal .content {
   background-image: url(../assets/congratulation.jpg);
   border: 1px solid #33A3FF;
 }
@@ -126,7 +126,7 @@ nav {
   border-top: 1px solid #E0DEDB;
 }
 
-.play-button{
+.play-button {
   background-color: #3498DB;
   border: 1px solid #E0DEDB;
 }
@@ -170,6 +170,6 @@ input {
   cursor: pointer;
 }
 
-input:hover{
+input:hover {
   color: black;
 }
