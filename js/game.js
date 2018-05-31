@@ -2,7 +2,7 @@ $(() => {
 	let arr = [ [false, false], [false, false] ];
 	let length = arr.length;
 	if ($(window).width() < 750) {
-		$(".container").css("max-width", "80%");
+		$(".container").css("max-width", "100%");
 	}
 	let dWidth = $(".container").width();
 
