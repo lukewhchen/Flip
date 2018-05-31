@@ -1,6 +1,7 @@
 $(() => {
 	let arr = [ [false, false], [false, false] ];
 	let length = arr.length;
+	let audio = $("#mysoundclip")[0];
 	if ($(window).width() < 750) {
 		$(".container").css("max-width", "100%");
 	}
@@ -27,6 +28,7 @@ $(() => {
 		}
 
 		$(".square").click(function() {
+			audio.play();
 			let position = $(this).attr("pos").split(",");
 			let x = Number(position[0]);
 			let y = Number(position[1]);
