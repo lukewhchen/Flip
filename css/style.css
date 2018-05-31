@@ -36,10 +36,17 @@ a {
   justify-content: center;
 }
 
+
 .container {
   margin:auto;
   padding:0 10px;
+  max-width: 400px;
 }
+
+/* .board {
+  clear: both;
+  background-color: red;
+} */
 
 h1 {
   margin-top: 50px;
@@ -138,7 +145,7 @@ nav {
   font-size: 0px;
 }
 
-.square {
+/* .square {
   display: inline-block;
   height: 80px;
   width: 80px;
@@ -148,7 +155,17 @@ nav {
   margin-bottom: -5px;
   background-color: #d671a9;
   cursor: pointer;
+} */
+
+.square {
+  float: left;
+  margin: 2px;
+  border-radius: 4px;
+  border: 1px solid #745503;
+  background-color: #d671a9;
+  cursor: pointer;
 }
+
 
 .unselected {
   background-color: #DABB68;

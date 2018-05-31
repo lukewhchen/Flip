@@ -11,9 +11,11 @@ $(() => {
 			board.append(row);
 
 			for (let j = 0; j < length; j++) {
+				let width = (350/length);
 				let square = ('<div class="square" ></div>');
 				board.children(".row").eq(i).append(square)
-					.find(".square").eq(j).attr("pos", i + "," + j).addClass(() => {
+					.find(".square").eq(j).attr("pos", i + "," + j).css({"width": width, "height": width})
+					.addClass(() => {
 						if (!arr[i][j]) {
 							return "unselected";}
 					});
