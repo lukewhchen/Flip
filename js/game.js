@@ -1,6 +1,10 @@
 $(() => {
 	let arr = [ [false, false], [false, false] ];
 	let length = arr.length;
+	if ($(window).width() < 750) {
+		$(".container").css("max-width", "50%");
+	}
+	let dWidth = $(".container").width();
 
 	function setBoard() {
     let board = $(".board");
@@ -11,7 +15,7 @@ $(() => {
 			board.append(row);
 
 			for (let j = 0; j < length; j++) {
-				let width = (350/length);
+				let width = ((dWidth - 50)/length);
 				let square = ('<div class="square" ></div>');
 				board.children(".row").eq(i).append(square)
 					.find(".square").eq(j).attr("pos", i + "," + j).css({"width": width, "height": width})
