@@ -8,9 +8,9 @@ Your challenge is to turn all squares to pink.
 I used javaScript and JQuery to dynamically handle DOM elements as well as implement game logic. I also leveraged CSS3 features to present popup modals for display game information and implement responsive web design to improve user interface(UI).
 
 
-## Main Board
+## Game View
 
-![Main Board](https://github.com/lukewhchen/Flip/blob/master/docs/board.png?raw=true)
+![Game View](https://github.com/lukewhchen/Flip/blob/master/docs/board.png?raw=true)
 
 ## Popup Modals - Game Rule
 
