@@ -10,7 +10,7 @@ I used javaScript and JQuery to dynamically handle DOM elements as well as imple
 
 ## Authentication - User Log-in/out and Sign-up/out
 
-![Welcome Page](https://github.com/lukewhchen/babybook/blob/master/docs/Welcome%20Page.png?raw=true)
+![Welcome Page](https://github.com/lukewhchen/Flip/blob/master/docs/board.png?raw=true)
 
 When visiting babybook if you already have an account, you can easily log in on navigation bar. You can always create a new account using the sign up form. The users account information are protected by Auth pattern. Only the valid user can log-in and see all the features.
 
