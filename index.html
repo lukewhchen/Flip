@@ -21,7 +21,12 @@
 	</head>
 	<body>
 		<audio src="./assets/peppa.mp3" controls autoplay loop ></audio>
-		<audio id="mysoundclip" preload="auto" src="./assets/button.mp3"></audio>
+		<audio id="mysoundclip" preload="auto">
+			<source src="./assets/button.mp3"> </source>
+		</audio>
+		<audio id="mysoundclip1" preload="auto">
+			<source src="./assets/cheer.mp3"> </source>
+		</audio>
 		<div class="container">
 			<h1>Flip Puzzle Game</h1>
 			<div class="board"></div>

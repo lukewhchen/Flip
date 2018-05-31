@@ -2,6 +2,7 @@ $(() => {
 	let arr = [ [false, false], [false, false] ];
 	let length = arr.length;
 	let audio = $("#mysoundclip")[0];
+	let audio1 = $("#mysoundclip1")[0];
 	if ($(window).width() < 750) {
 		$(".container").css("max-width", "100%");
 	}
@@ -58,6 +59,7 @@ $(() => {
 					}
 				}
 			}
+			audio1.play();
 			$("#level-modal").show();
 
 			let newArr = [];
