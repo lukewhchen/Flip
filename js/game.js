@@ -17,7 +17,7 @@ $(() => {
 			board.append(row);
 
 			for (let j = 0; j < length; j++) {
-				let width = ((dWidth - 50)/length);
+				let width = ((dWidth - 70)/length);
 				let square = ('<div class="square" ></div>');
 				board.children(".row").eq(i).append(square)
 					.find(".square").eq(j).attr("pos", i + "," + j).css({"width": width, "height": width})
