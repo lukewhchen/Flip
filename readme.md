@@ -1,8 +1,9 @@
 # Flip
 Flip is a logic puzzle game.
-By clicking a square to flip its color.
-All adjacent squares will also flip on the same time.
+You have a grid of squares.
+By clicking a square to flip its color, all adjacent squares will also flip at the same time.
 Your challenge is to turn all squares to pink.
+See how far you can go? 
 
 # Features and Implementation
 I used javaScript and JQuery to dynamically handle DOM elements as well as implement game logic. I also leveraged CSS3 features to present popup modals for display game information and implement responsive web design to improve user interface(UI).

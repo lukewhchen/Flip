@@ -18,7 +18,6 @@ $(() => {
 
 			for (let j = 0; j < length; j++) {
 				let width = (dWidth - 30 - (length * 2)) / length;
-				// let width = (dWidth/length) - (length * 20);
 				let square = ('<div class="square" ></div>');
 				board.children(".row").eq(i).append(square)
 					.find(".square").eq(j).attr("pos", i + "," + j).css({"width": width, "height": width})
