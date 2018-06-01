@@ -115,7 +115,7 @@ nav {
 
 #level-modal .play-button {
   background-color: #0B9F09;
-  border: 1px solid #33A3FF;
+  box-shadow: 2px 2px 9px 0px #2dd82b inset, -2px -2px 9px 0px #036301 inset;
 }
 
 .rule {
@@ -150,14 +150,18 @@ nav {
   border: 1px solid #745503;
   background-color: #d671a9;
   cursor: pointer;
+  box-shadow: 4px 4px 9px 0px #ef92c6 inset, -4px -4px 9px 0px #c44c8e inset;
 }
+
 
 .unselected {
   background-color: #DABB68;
+  box-shadow: 4px 4px 9px 0px #f2d791 inset, -4px -4px 9px 0px #c9a84e inset;
 }
 
 input {
   background-color: #3498DB;
+  box-shadow: 2px 2px 9px 0px #5eb4ed inset, -2px -2px 9px 0px #0774bc inset;
   border: 1px solid transparent;
   border-radius: 4px;
   color: white;
