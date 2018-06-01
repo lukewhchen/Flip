@@ -44,7 +44,7 @@ a {
 }
 
 .board {
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 h1 {
@@ -158,8 +158,8 @@ nav {
 
 .square {
   float: left;
-  margin: 2px;
-  border-radius: 4px;
+  /* margin: 1px; */
+  border-radius: 5px;
   border: 1px solid #745503;
   background-color: #d671a9;
   cursor: pointer;
