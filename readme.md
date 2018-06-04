@@ -9,8 +9,6 @@ See how far you can go?
 I used javaScript and JQuery to dynamically handle DOM elements as well as implement flipping logic. Each square will resize automatically according to different level.
 I also leveraged CSS3 features to present popup modals for display information and implement responsive web design to improve user interface(UI).
 
-## How to play
-![Demo](https://github.com/lukewhchen/Flip/blob/master/docs/demo.gif?raw=true)
 
 ## Game View
 
@@ -28,6 +26,8 @@ I also leveraged CSS3 features to present popup modals for display information a
 
 ![Congra Modals](https://github.com/lukewhchen/Flip/blob/master/docs/congra-modal.png?raw=true)
 
+## Demo play
+![Demo](https://github.com/lukewhchen/Flip/blob/master/docs/demo.gif?raw=true)
 
 # Future Directions
 - Record Highest Level and User name
