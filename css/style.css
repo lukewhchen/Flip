@@ -20,7 +20,8 @@ span, article, footer, time, small {
 body {
   background-image: url(../assets/peppa.jpg);
   background-size: cover;
-  overflow: hidden;
+  background-repeat: no-repeat;
+  /* overflow: hidden; */
 }
 
 audio {
@@ -30,7 +31,7 @@ audio {
 
 a {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 26px;
   font-family: fantasy;
   text-decoration: none;
   justify-content: center;
