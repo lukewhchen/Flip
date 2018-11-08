@@ -6,7 +6,7 @@ Your challenge is to turn all squares to pink.
 See how far you can go?
 
 # Features and Implementation
-I used javaScript and JQuery to dynamically handle DOM elements as well as implement flipping logic. Each square will resize automatically according to different level.
+I used JavaScript and JQuery to dynamically handle DOM elements as well as implement flipping logic. Each square will resize automatically according to different level.
 I also leveraged CSS3 features to present popup modals for display information and implement responsive web design to improve user interface(UI).
 
 
