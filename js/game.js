@@ -3,6 +3,7 @@ $(() => {
 	let length = arr.length;
 	let audio = $("#mysoundclip")[0];
 	let audio1 = $("#mysoundclip1")[0];
+	let music = true;
 	if ($(window).width() < 750) {
 		$(".container").css("max-width", "100%");
 	}
@@ -29,7 +30,7 @@ $(() => {
 		}
 
 		$(".square").click(function() {
-			audio.play();
+			while (music === true) audio.play();
 			let position = $(this).attr("pos").split(",");
 			let x = Number(position[0]);
 			let y = Number(position[1]);
@@ -103,7 +104,7 @@ $(() => {
 	}
 
 	$(".mute").click(() => {
-    audio.pause();
+    music = false;
 });
 
 	$(".instructions").click(() => {
