@@ -103,6 +103,8 @@ $(() => {
 	});
 
 	$(".mute").click(() => {
+		$(".speaker").toggleClass('fa fa-volume-up');
+		$(".speaker").toggleClass('fa fa-volume-off');
 		if (music === true) {
 			music = false;
 		}else {
@@ -110,13 +112,6 @@ $(() => {
 		}
 });
 
-// 	$(".speaker").click(() => {
-// 		if (music === true) {
-// 			music = false;
-// 		}else {
-// 			music = true;
-// 		}
-// });
 
 	$(".instructions").click(() => {
 		$("#rule-modal").show();
