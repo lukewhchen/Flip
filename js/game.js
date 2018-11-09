@@ -30,7 +30,7 @@ $(() => {
 		}
 
 		$(".square").click(function() {
-			while (music === true) audio.play();
+			if (music === true) audio.play();
 			let position = $(this).attr("pos").split(",");
 			let x = Number(position[0]);
 			let y = Number(position[1]);
@@ -98,10 +98,10 @@ $(() => {
 		setBoard(arr);
 	});
 
-	function muteMe(elem) {
-    elem.muted = true;
-    elem.pause();
-	}
+	// function muteMe(elem) {
+  //   elem.muted = true;
+  //   elem.pause();
+	// }
 
 	$(".mute").click(() => {
     music = false;
