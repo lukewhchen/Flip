@@ -103,7 +103,7 @@ $(() => {
 	}
 
 	$(".mute").click(() => {
-    document.querySelectorAll("audio").forEach( elem => muteMe(elem) );
+    audio.muted();
 });
 
 	$(".instructions").click(() => {
