@@ -181,3 +181,7 @@ input {
 input:hover {
   color: black;
 }
+
+.mute:hover {
+  cursor: pointer;
+}
