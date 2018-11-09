@@ -103,7 +103,7 @@ $(() => {
 	}
 
 	$(".mute").click(() => {
-    audio.muted();
+    audio.muted = true;
 });
 
 	$(".instructions").click(() => {
