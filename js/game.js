@@ -102,8 +102,8 @@ $(() => {
     elem.pause();
 	}
 
-	$(".mute").click(function mutePage() {
-    document.querySelectorAll("video, audio").forEach( elem => muteMe(elem) );
+	$(".mute").click(() => {
+    document.querySelectorAll("audio").forEach( elem => muteMe(elem) );
 });
 
 	$(".instructions").click(() => {
