@@ -97,6 +97,15 @@ $(() => {
 		setBoard(arr);
 	});
 
+	function muteMe(elem) {
+    elem.muted = true;
+    elem.pause();
+	}
+
+	$(".mute").click(function mutePage() {
+    document.querySelectorAll("video, audio").forEach( elem => muteMe(elem) );
+});
+
 	$(".instructions").click(() => {
 		$("#rule-modal").show();
 	});
