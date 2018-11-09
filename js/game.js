@@ -110,6 +110,14 @@ $(() => {
 		}
 });
 
+	$(".speaker").click(() => {
+		if (music === true) {
+			music = false;
+		}else {
+			music = true;
+		}
+});
+
 	$(".instructions").click(() => {
 		$("#rule-modal").show();
 	});
