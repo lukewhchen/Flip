@@ -62,7 +62,9 @@ $(() => {
 					}
 				}
 			}
-			audio1.play();
+			if (music === true) {
+				audio1.play();
+			}
 			$("#level-modal").show();
 
 			let newArr = [];
@@ -101,7 +103,11 @@ $(() => {
 	});
 
 	$(".mute").click(() => {
-    music = false;
+		if (music === true) {
+			music = false;
+		}else {
+			music = true;
+		}
 });
 
 	$(".instructions").click(() => {
