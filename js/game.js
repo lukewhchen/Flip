@@ -113,7 +113,7 @@ $(() => {
 	// });
 
 	$('i.button').click(function(){
-		$(this).toggleClass('fa-heart fa-heart-o');
+		$(this).toggleClass('fa-volume-up fa-volume-off');
 		if (music === true) {
 			music = false;
 		}else {
