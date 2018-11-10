@@ -103,7 +103,8 @@ $(() => {
 	});
 
 	$(".mute").click(() => {
-		$(".speaker").toggleClass('fa fa-volume-off');
+		$(".speaker").toggleClass('fa fa-volume-up fa fa-volume-off');
+		// $(this).find('i').toggleClass('fa fa-volume-up fa fa-volume-off');
 		if (music === true) {
 			music = false;
 		}else {
