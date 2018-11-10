@@ -102,16 +102,24 @@ $(() => {
 		setBoard(arr);
 	});
 
-	$(".mute").click(() => {
-		$("#speaker").toggleClass('fa fa-volume-up fa fa-volume-off');
-		// $(this).find('i').toggleClass('fa fa-volume-up fa fa-volume-off');
+	// $(".mute").click(() => {
+	// 	$("#speaker").toggleClass('fa fa-volume-up fa fa-volume-off');
+	// 	// $(this).find('i').toggleClass('fa fa-volume-up fa fa-volume-off');
+	// 	if (music === true) {
+	// 		music = false;
+	// 	}else {
+	// 		music = true;
+	// 	}
+	// });
+
+	$('i.button').click(function(){
+		$(this).toggleClass('fa-heart fa-heart-o');
 		if (music === true) {
 			music = false;
 		}else {
 			music = true;
 		}
-});
-
+	});
 
 	$(".instructions").click(() => {
 		$("#rule-modal").show();
