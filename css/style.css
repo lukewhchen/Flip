@@ -21,7 +21,6 @@ body {
   background-image: url(../assets/peppa.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  /* overflow: hidden; */
 }
 
 audio {
