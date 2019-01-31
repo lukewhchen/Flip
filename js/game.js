@@ -106,8 +106,10 @@ $(() => {
 		$(this).toggleClass("fa-volume-up fa-volume-off");
 		if (music === true) {
 			music = false;
+			$('span').html("Unmute");
 		}else {
 			music = true;
+			$('span').html("Mute");
 		}
 	});
 
