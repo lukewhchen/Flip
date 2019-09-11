@@ -1,13 +1,13 @@
 # Flip
 Flip is a logic puzzle game.
-You have a grid of squares.
-By clicking a square to flip its color, all adjacent squares will also flip at the same time.
-Your challenge is to turn all squares to pink.
-See how far you can go?
+You have a grid of squares. You can flip a square by clicking it. But when you clicking a square, all adjacent squares will also flip at the same time. Your challenge is to turn all squares flip into pink color. See how far you can go?
+
+## Demo
+![Demo](https://github.com/lukewhchen/Flip/blob/master/docs/demo.gif?raw=true)
 
 # Features and Implementation
-I used JavaScript and JQuery to dynamically handle DOM elements as well as implement flipping logic. Each square will resize automatically according to different level.
-I also leveraged CSS3 features to present popup modals for display information and implement responsive web design to improve user interface(UI).
+I used JavaScript and JQuery to dynamically handle DOM elements as well as implement flipping logic. Each square will resize automatically according to different levels.
+I also leveraged CSS3 features to present popup modals for display information and implement responsive web design to improve the User Interface(UI).
 
 
 ## Game View
@@ -22,13 +22,10 @@ I also leveraged CSS3 features to present popup modals for display information a
 
 ![Info Modals](https://github.com/lukewhchen/Flip/blob/master/docs/info-modal.png?raw=true)
 
-## Dynamically square resizing
+## Dynamically resizing squares
 
 ![Congra Modals](https://github.com/lukewhchen/Flip/blob/master/docs/congra-modal.png?raw=true)
 
-## Demo play
-![Demo](https://github.com/lukewhchen/Flip/blob/master/docs/demo.gif?raw=true)
-
 # Future Directions
-- Record Highest Level and User name
-- Implement algorithm to provide hints
+- Record the highest level and user's name.
+- Implement an algorithm to provide hints.
