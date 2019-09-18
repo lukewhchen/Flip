@@ -156,6 +156,7 @@ nav {
 
 
 .unselected {
+  transform: rotateY(180deg);
   background-color: #DABB68;
   box-shadow: 4px 4px 9px 0px #f2d791 inset, -4px -4px 9px 0px #c9a84e inset;
 }
