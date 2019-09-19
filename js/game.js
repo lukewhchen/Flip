@@ -1,6 +1,8 @@
 $(() => {
 	if ($(window).width() < 750) $(".container").css("max-width", "100%");
+	const RECORD = [0,1,4,5,4,15,28,33,40,25,44,55,72,105,56,117];
 	let arr = [ [false, false], [false, false] ];
+	let count = 0;
 	let length = arr.length;
 	let audio = $("#mysoundclip")[0];
 	let audio1 = $("#mysoundclip1")[0];
@@ -10,6 +12,10 @@ $(() => {
 
 	function renderBoard() {
     let board = $(".board");
+		let counter = $("#count");
+		counter.html(count);
+		let mini = $("#record");
+		mini.html(RECORD[length]);
 		board.empty();
 
 		for (let i = 0; i < length; i++) {
@@ -27,8 +33,9 @@ $(() => {
 					});
 			}
 		}
-		
+
 		$(".square").click(function() {
+			count++;
 			if (music) audio.play();
 			let position = $(this).attr("pos").split(",");
 			let x = Number(position[0]);
@@ -56,6 +63,7 @@ $(() => {
 		}
 		arr = newArr;
 		length = arr.length;
+		count = 0;
 		renderBoard();
 	};
 
@@ -85,10 +93,10 @@ $(() => {
 		$('i.button').toggleClass("fa-volume-up fa-volume-off");
 		if (music) {
 			music = false;
-			$('span').html("Unmute");
+			$('#mute').html("Unmute");
 		}else {
 			music = true;
-			$('span').html("Mute");
+			$('#mute').html("Mute");
 		}
 	});
 

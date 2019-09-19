@@ -117,7 +117,13 @@ nav {
   background-color: #0B9F09;
   box-shadow: 2px 2px 9px 0px #2dd82b inset, -2px -2px 9px 0px #036301 inset;
 }
-
+.counter {
+  font-family: comic sans MS;
+  font-size: 20px;
+  margin-top: -40px;
+  margin-bottom: 5px;
+  text-align: center;
+}
 .rule {
   padding:15px;
 }
@@ -188,8 +194,7 @@ input:hover {
 
 .tooltip {
   position: relative;
-  display: inline-block;
-  left: 380px;
+  left: 360px;
   bottom: 55px;
 }
 
