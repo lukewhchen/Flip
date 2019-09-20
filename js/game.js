@@ -4,8 +4,8 @@ $(() => {
 	let arr = [ [false, false], [false, false] ];
 	let count = 0;
 	let length = arr.length;
-	let audio = $("#mysoundclip")[0];
-	let audio1 = $("#mysoundclip1")[0];
+	let clickEffect = $("#mysoundclip")[0];
+	let finishMusic = $("#mysoundclip1")[0];
 	let music = true;
 	let dWidth = $(".container").width();
 	renderBoard();
@@ -36,7 +36,7 @@ $(() => {
 
 		$(".square").click(function() {
 			count++;
-			if (music) audio.play();
+			if (music) clickEffect.play();
 			let position = $(this).attr("pos").split(",");
 			let x = Number(position[0]);
 			let y = Number(position[1]);
@@ -48,7 +48,7 @@ $(() => {
 		for ( let i = 0; i < length; i++) {
 			if ( arr[i].includes(false)) return;
 		}
-		if (music) audio1.play();
+		if (music) finishMusic.play();
 		$("#level-modal").show();
 		setBoard(length+1);
 	};
