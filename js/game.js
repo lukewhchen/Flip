@@ -54,14 +54,7 @@ $(() => {
 	};
 
 	const setBoard = (len) => {
-		let newArr = [];
-		for (let i = 0; i < len; i++) {
-			newArr[i] = [];
-			for (let j = 0; j < len; j++) {
-				newArr[i][j] = false;
-			}
-		}
-		arr = newArr;
+		arr = new Array(len).fill(null).map(() => new Array(len).fill(false));
 		length = len;
 		localStorage.setItem("level", length);
 		count = 0;
