@@ -1,9 +1,9 @@
 $(() => {
 	if ($(window).width() < 750) $(".container").css("max-width", "100%");
 	const RECORD = [0,1,4,5,4,15,28,33,40,25,44,55,72,105,56,117];
-	let arr = [ [false, false], [false, false] ];
 	let count = 0;
-	let length = arr.length;
+	let length = +localStorage.getItem("level") || 2;
+	let arr = new Array(length).fill(null).map(() => new Array(length).fill(false));
 	let clickEffect = $("#mysoundclip")[0];
 	let finishMusic = $("#mysoundclip1")[0];
 	let music = true;
@@ -55,14 +55,15 @@ $(() => {
 
 	const setBoard = (len) => {
 		let newArr = [];
-		for (let i = 0; i < (len); i++) {
+		for (let i = 0; i < len; i++) {
 			newArr[i] = [];
-			for (let j = 0; j < (len); j++) {
+			for (let j = 0; j < len; j++) {
 				newArr[i][j] = false;
 			}
 		}
 		arr = newArr;
-		length = arr.length;
+		length = len;
+		localStorage.setItem("level", length);
 		count = 0;
 		renderBoard();
 	};
