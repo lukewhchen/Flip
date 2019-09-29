@@ -22,10 +22,9 @@ I also leveraged CSS3 features to present popup modals for display information a
 
 ![Info Modals](https://github.com/lukewhchen/Flip/blob/master/docs/info-modal.png?raw=true)
 
-## Dynamically resizing squares
+## Dynamically resizing
 
 ![Congra Modals](https://github.com/lukewhchen/Flip/blob/master/docs/congra-modal.png?raw=true)
 
 # Future Directions
-- Record the highest level and user's name.
 - Implement an algorithm to provide hints.
