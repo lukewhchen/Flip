@@ -8,6 +8,7 @@ You have a grid of squares. You can flip a square by clicking it. But when you c
 # Features and Implementation
 I used JavaScript and JQuery to dynamically handle DOM elements as well as implement flipping logic. Each square will resize automatically according to different levels.
 I also leveraged CSS3 features to present popup modals for display information and implement responsive web design to improve the User Interface(UI).
+Applied Window localStorage to memorize the current level.
 
 
 ## Game View
