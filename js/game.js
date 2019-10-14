@@ -97,4 +97,5 @@ $(() => {
 	$(".instructions").click(() => $("#rule-modal").show());
 	$(".play-button").click(() => $(".modal").hide());
 
+
 });
